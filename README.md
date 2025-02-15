@@ -8,6 +8,6 @@ This is a simple Quotes Generator App built with React and Vite. The app fetches
 - Add quotes to a favorites list
 - View and remove quotes from the favorites list
 
-## DEMO
+## Demo
 
 https://marktiago18.github.io/Quotes-Generator-App/
