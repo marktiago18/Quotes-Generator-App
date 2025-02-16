@@ -165,6 +165,24 @@
     inset: 0;
     background-image: linear-gradient(to left, #1b9b96, #2e6f79);
     padding: 3rem 7rem 3rem 7rem;
+    overflow-y: auto;
+}
+
+.favorites::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+.favorites::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.favorites::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 0.4rem;
+}
+
+.favorites::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .fav-quote {
@@ -202,4 +220,30 @@
     font-family: "Briem Hand", cursive;
     text-align: right;
     color: #ddd;
+}
+
+@media (max-width: 850px) {
+    .quotes-app {
+        width: 75vmin;
+        aspect-ratio: 2 / 3;
+    }
+}
+
+@media (max-width: 550px) {
+    .quotes-app {
+        aspect-ratio: 1 / 2;
+    }
+
+    .buttons {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .fav-text {
+        display: none;
+    }
+
+    .fav-quote {
+        margin-left: -4rem;
+    }
 }
