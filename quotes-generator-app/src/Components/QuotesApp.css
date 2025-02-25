@@ -1,7 +1,8 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, #ffac24, #ffd780);
+    /* background-image: linear-gradient(to right, #ffac24, #ffd780); */
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
     display: grid;
     place-items: center;
 }
